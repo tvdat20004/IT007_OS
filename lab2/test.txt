@@ -1,0 +1,5 @@
+We all know that you don’t do your own crypto. We know that even though we’ve cleverly reversed the order of every word, shifted each letter along by 5 and added in dummy text to throw attackers off the scent, our ingenious cipher is going to get crushed to dust by anyone who knows what they’re doing (or in this case a moderately intelligent 12 year-old).
+
+But even implementing someone else’s secure encryption algorithm is fraught with danger. And even using someone else’s secure implementation of an encryption algorithm, with well-chosen secret keys and suchlike, is still open to brutally effective attacks. A skilled attacker needs only a tiny, indirect information leak in order to pick your encryption apart.
+
+My point isn’t that you should abandon encryption altogether or bring in $1000/hour consultants whenever you even think about using a cipher. My point is partly that you should never be complacent and should always be on the lookout for any way an attacker could gain any insight into your encryption, and partly that the Padding Oracle Attack is an incredibly cool demonstration of this. Read on.
